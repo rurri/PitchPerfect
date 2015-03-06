@@ -24,6 +24,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     
     override func viewDidAppear(animated: Bool) {
         stopButton.hidden = true
+        recordingLabel.text = "Tap to record"
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,6 +33,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
 
     @IBAction func recordAudio(sender: UIButton) {
         stopButton.hidden = false
+        recordingLabel.text = "Recording in Progress"
         recordingLabel.hidden = false
         microphoneButton.hidden = true
         
@@ -56,10 +58,9 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     }
     
     @IBAction func stopRecord(sender: UIButton) {
-        recordingLabel.hidden = true
         stopButton.hidden = true
         microphoneButton.hidden = false
-        
+        recordingLabel.text = "Tap to record"
         audioRecorder.stop()
         var audioSession = AVAudioSession.sharedInstance()
         audioSession.setActive(false, error: nil)
