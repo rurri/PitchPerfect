@@ -14,7 +14,6 @@
 		C603AAF51AA85C7900F0D06C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C603AAF31AA85C7900F0D06C /* LaunchScreen.xib */; };
 		C603AB011AA85C7900F0D06C /* Pitch_PerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C603AB001AA85C7900F0D06C /* Pitch_PerfectTests.swift */; };
 		C603AB0B1AAA373C00F0D06C /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C603AB0A1AAA373C00F0D06C /* PlaySoundsViewController.swift */; };
-		C603AB0D1AAA391F00F0D06C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C603AB0C1AAA391F00F0D06C /* Media.xcassets */; };
 		C603AB0F1AAA39DC00F0D06C /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C603AB0E1AAA39DC00F0D06C /* movie_quote.mp3 */; };
 		C62B8A491AAA4C400013328D /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62B8A481AAA4C400013328D /* RecordedAudio.swift */; };
 /* End PBXBuildFile section */
@@ -41,7 +40,6 @@
 		C603AAFF1AA85C7900F0D06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C603AB001AA85C7900F0D06C /* Pitch_PerfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_PerfectTests.swift; sourceTree = "<group>"; };
 		C603AB0A1AAA373C00F0D06C /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
-		C603AB0C1AAA391F00F0D06C /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		C603AB0E1AAA39DC00F0D06C /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
 		C62B8A481AAA4C400013328D /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,7 +91,6 @@
 				C603AAF11AA85C7900F0D06C /* Images.xcassets */,
 				C603AAF31AA85C7900F0D06C /* LaunchScreen.xib */,
 				C603AAE81AA85C7900F0D06C /* Supporting Files */,
-				C603AB0C1AAA391F00F0D06C /* Media.xcassets */,
 			);
 			path = "Pitch Perfect";
 			sourceTree = "<group>";
@@ -207,7 +204,6 @@
 				C603AAF01AA85C7900F0D06C /* Main.storyboard in Resources */,
 				C603AAF51AA85C7900F0D06C /* LaunchScreen.xib in Resources */,
 				C603AB0F1AAA39DC00F0D06C /* movie_quote.mp3 in Resources */,
-				C603AB0D1AAA391F00F0D06C /* Media.xcassets in Resources */,
 				C603AAF21AA85C7900F0D06C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
