@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="DgU-4q-51r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="DgU-4q-51r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -27,7 +27,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRC-mZ-5rW">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" image="microphone">
+                                <state key="normal" image="microphone2">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -39,9 +39,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="149" y="486" width="102" height="21"/>
-                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -178,16 +175,16 @@
                                 <exclude reference="osm-ro-EPK"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="8ra-Lx-g0D"/>
                                 <exclude reference="6c7-JA-bFK"/>
                                 <exclude reference="Jaq-6I-wAS"/>
                                 <exclude reference="UoV-Py-MhZ"/>
                                 <exclude reference="hzo-jR-L9e"/>
+                                <exclude reference="2Xz-NB-9hK"/>
                                 <exclude reference="3oY-fr-mwo"/>
                                 <exclude reference="gsi-5K-se0"/>
                                 <exclude reference="PE6-BB-lo2"/>
                                 <exclude reference="xp8-LP-9Vh"/>
-                                <exclude reference="2Xz-NB-9hK"/>
-                                <exclude reference="8ra-Lx-g0D"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -199,16 +196,16 @@
                                 <include reference="osm-ro-EPK"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="8ra-Lx-g0D"/>
                                 <include reference="6c7-JA-bFK"/>
                                 <include reference="Jaq-6I-wAS"/>
                                 <include reference="UoV-Py-MhZ"/>
                                 <include reference="hzo-jR-L9e"/>
+                                <include reference="2Xz-NB-9hK"/>
                                 <include reference="3oY-fr-mwo"/>
                                 <include reference="gsi-5K-se0"/>
                                 <include reference="PE6-BB-lo2"/>
                                 <include reference="xp8-LP-9Vh"/>
-                                <include reference="2Xz-NB-9hK"/>
-                                <include reference="8ra-Lx-g0D"/>
                             </mask>
                         </variation>
                     </view>
@@ -239,7 +236,7 @@
     <resources>
         <image name="chipmunk" width="100" height="100"/>
         <image name="darthVader" width="100" height="100"/>
-        <image name="microphone" width="100" height="100"/>
+        <image name="microphone2" width="100" height="100"/>
         <image name="rabbitButton" width="100" height="100"/>
         <image name="slowButton" width="100" height="100"/>
         <image name="stopButton" width="50" height="50"/>
